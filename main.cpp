@@ -13,6 +13,7 @@ int main() {
 
     Board board(BOARD_ROWS, BOARD_COLS);
     board.initialize();
+    board.addStuff();
 
     getch();
     endwin();
