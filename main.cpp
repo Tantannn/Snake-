@@ -13,8 +13,8 @@ int main() {
 
     Board board(BOARD_ROWS, BOARD_COLS);
     board.initialize();
-    board.addStuff();
-
+    board.addSnake(5,5);
+    board.runGame();
     getch();
     endwin();
     return 0;
